@@ -64,7 +64,7 @@ Dưới đây là các endpoint API được triển khai:
 ### Thêm một công việc mới:
 **Endpoint:**
 ```http
-POST https://localhost:7090/todoitems
+POST https://localhost:7124/todoitems
 ```
 **Request Body:**
 ```json
@@ -85,7 +85,7 @@ POST https://localhost:7090/todoitems
 ### Cập nhật công việc:
 **Endpoint:**
 ```http
-PUT https://localhost:7090/todoitems/1
+PUT https://localhost:7124/todoitems/1
 ```
 **Request Body:**
 ```json
@@ -99,12 +99,12 @@ PUT https://localhost:7090/todoitems/1
 
 1. **Clone repository** từ GitHub:
    ```bash
-   git clone https://github.com/soa-ueh-thanhlam/Excersie3.git
+ (https://github.com/Hiu11/SOA_minimal_APIs)
    ```
 
 2. **Điều hướng vào thư mục dự án**:
    ```bash
-   cd Excersie3
+SOA_minimal_APIs
    ```
 
 3. **Chạy ứng dụng**:
